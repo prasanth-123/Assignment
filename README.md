@@ -1,1 +1,7 @@
-# Assignment
+# Assignment-java
+
+I started with creating a java dynamic web project on eclipse. Then downloaded the jersey jars and json jars and added them to the app layer and the web layer (web-inf/lib). Then i created a java class and wrote a method in it which returns a jsonobject. Then i used the jersey annotations to create a path for the class and the method. I've added a @GET http annotation and a @Produces annotations to the method. Now i did web.xml servlet mapping using the jersey servlet container class (which is my servelet dispatcher) Then i deployed the applicaiton on tomcat server and accessed it using postman. Hosted on http://localhost:8080/java_restapi/restapi/getData/json
+
+# Assignment-python
+
+To implement API calling in python I have used Flask framework. I started with installing the Flask by using pip install flask. Then, in pycharm i created a new python file and imported the flask. Then i Created an Flask application object, which contains data about the application and also methods (app = Flask(__name__)). I have defined a method called api_all where I am using jsonify function to convert lists to JSON. This api_all function is annotated with @api.route and is provided with a path(/api/getData) to create a REST API service. It has its method type GET because we are trying to read a JSON object. Finally i used app.run() command is used to run the application on server. Hosted on http://127.0.0.1:5000/api/getData
